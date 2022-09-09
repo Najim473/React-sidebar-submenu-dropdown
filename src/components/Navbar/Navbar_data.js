@@ -1,9 +1,13 @@
 import React from 'react';
 import * as RiIcons from 'react-icons/ri';
 export const menuList = [
+{
+    title:'Home',
+    path:'/',
+},
     {
         title: 'Committee',
-        path: '/',
+        path: '/committee',
         cName: 'nav-links',
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
